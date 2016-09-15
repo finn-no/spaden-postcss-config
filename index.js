@@ -33,6 +33,7 @@ module.exports = function(config) {
     return [
         require('postcss-import')(input.postcss),
         require('postcss-custom-properties')(),
+        require('postcss-mixins')(),
         // require('postcss-nested'),
         require('postcss-media-minmax')(),
         require('postcss-custom-media')(),
