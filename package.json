@@ -1,6 +1,6 @@
 {
   "name": "spaden-postcss-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "postcss-config and postcss dependencies for spaden",
   "main": "index.js",
   "license": "MIT",
