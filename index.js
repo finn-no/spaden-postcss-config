@@ -37,6 +37,6 @@ module.exports = function(config) {
         // require('postcss-nested'),
         require('postcss-media-minmax')(),
         require('postcss-custom-media')(),
-        require('autoprefixer')({ browsers: ['last 5 versions'] })
+        require('autoprefixer')({ browsers: ['last 6 versions'] })
     ];
 };
